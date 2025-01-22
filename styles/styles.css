@@ -173,36 +173,179 @@ nav ul li a{
   text-decoration: none;
 }
 
+/* Our Story */
+
+.our-story {
+  display: grid;
+  grid-template-rows: auto auto; 
+  gap: 20px;
+}
+
+.our-story-title-section {
+  display: flex;
+  justify-content: center;
+}
+
+.our-story-title {
+  font-size: 25px;
+  text-align: center; 
+}
+
+.story-card{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  gap: 70px;
+  border: 1px solid red;
+}
+.story-cards-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+
 .story-card-1{
-  width: 30%;
-  background-color: grey;
-  border-radius: 18px;
+  
+  text-align: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
 }
-.image img{
-  width: 100%;
-  border-top-right-radius: 18px;
-  border-top-left-radius: 18px;
+
+.story-card-1-image-section{
+   margin: -20px;
+   border-radius: 20px;
 }
-.story-card-title{
-  padding: 40px 50px 15px 20px;
+.story-card-1-image{
+  border-radius: 20px 20px 0 0;
 }
-.card-des{
-  margin-top: 30px;
+.story-card-text-section{
+padding: 25px;
 }
+
+.story-card-1-title{
+  font-size: 20px;
+  padding: 40px 0 40px 0;
+}
+
+.story-card-1-des{
+  font-size: 16px;
+  color: rgb(142, 149, 154);
+}
+
 .story-card-2{
-  width: 20%;
-  background-color: grey;
-  border-radius: 18px;
-}
-.card-image{
-  width: 100%;
-  border-top-right-radius: 18px;
-  border-top-left-radius: 18px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(232, 228, 228);
+  border-radius: 14px;
+  position: relative;
 }
 
+.story-card-2-date{
+margin: 150px 0px 0px -30px;
+position: absolute;
+background-color: rgb(117, 198, 18);
+padding: 10px;
+border-radius: 30px;
+color: white;
+}
 
+.story-card-2-image{
+  margin: -0px -80px 0 -70px;
+  border-radius: 10px;
+}
 
+.story-card-2-title{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.story-card-3{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(232, 228, 228);
+  border-radius: 14px;
+  position: relative;
+}
 
+.story-card-3-date{
+  margin: 150px 0px 0px -30px;
+  position: absolute;
+  background-color: rgb(117, 198, 18);
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  }
+  
+
+.story-card-3-date{
+position: absolute;
+}
+
+.story-card-3-image{
+  margin: -0px -80px 0 -70px;
+  border-radius: 10px;
+}
+
+.story-card-3-title{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.story-card-4{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(232, 228, 228);
+  border-radius: 14px;
+  position: relative;
+}
+
+.story-card-4-date{
+  margin: 150px 0px 0px -30px;
+  position: absolute;
+  background-color: rgb(117, 198, 18);
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  }
+  
+
+.story-card-4-image{
+  margin: -0px -80px 0 -70px;
+  border-radius: 10px;
+}
+
+.story-card-4-title{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.story-card-5{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(232, 228, 228);
+  border-radius: 14px;
+  position: relative;
+}
+
+.story-card-5-date{
+  margin: 150px 0px 0px -30px;
+  position: absolute;
+  background-color: rgb(117, 198, 18);
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  }
+  
+
+.story-card-5-image{
+  margin: -0px -80px 0 -70px;
+  border-radius: 10px;
+}
+
+.story-card-5-title{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+
+/* footer */
 
 .footer-content{
   display: flex;
