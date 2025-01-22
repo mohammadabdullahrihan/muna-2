@@ -352,6 +352,7 @@ position: absolute;
   justify-content: space-between;
   background-color: rgb(1, 172, 253);
   padding: 100px 140px;
+  margin: -40px;
 }
 
 .about-school{
@@ -378,4 +379,137 @@ position: absolute;
 .footer-logo{
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+/* Base responsive setup */
+@media (max-width: 1200px) {
+  .hero {
+    padding: 20px 5%;
+  }
+  .nav {
+    padding: 15px 20px;
+  }
+  .stander-card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stander-card-1,
+  .stander-card-2,
+  .stander-card-3 {
+    width: 90%;
+    height: auto;
+    margin: 15px 0;
+  }
+  .content h1 {
+    font-size: 60px;
+  }
+}
+
+/* For medium screens (tablets and small laptops) */
+@media (max-width: 992px) {
+  .story-card {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .story-cards-section {
+    grid-template-columns: 1fr;
+  }
+  .story-card-1,
+  .story-card-2,
+  .story-card-3,
+  .story-card-4,
+  .story-card-5 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+
+/* For small screens (mobile devices) */
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .contact-btn {
+    padding: 8px 25px;
+    font-size: 16px;
+  }
+  .banner {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .stander {
+    padding: 20px 10px;
+  }
+  .stander-card-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .footer-logo,
+  .social-media {
+    margin: 15px 0;
+  }
+  .about-school {
+    text-align: center;
+  }
+  .story-card-1-title,
+  .story-card-2-title,
+  .story-card-3-title {
+    font-size: 16px;
+  }
+}
+
+/* For very small screens (less than 480px) */
+@media (max-width: 480px) {
+  .logo-title {
+    font-size: 16px;
+  }
+  nav ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    display: none;
+  }
+  .content h1 {
+    font-size: 35px;
+  }
+  .stander-card-1,
+  .stander-card-2,
+  .stander-card-3 {
+    padding: 10px;
+  }
+
+  .story-card-1-image-section{
+    margin: 0px;
+    width: 240px;
+    border-radius: 20px;
+ }
+ .story-card-1-image{
+  width: 240px;
+}
+  .card-header {
+    padding: 5px;
+  }
+  .card-para {
+    font-size: 12px;
+  }
+  .footer-logo-title {
+    font-size: 16px;
+  }
+  .footer-content {
+    padding: 30px 10px;
+  }
 }
