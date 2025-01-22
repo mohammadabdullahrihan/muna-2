@@ -195,8 +195,7 @@ nav ul li a{
   display: flex;
   justify-content: center;
   margin: 50px;
-  gap: 70px;
-  border: 1px solid red;
+  gap: 40px;
 }
 .story-cards-section{
   display: grid;
@@ -208,7 +207,7 @@ nav ul li a{
   
   text-align: center;
   padding: 20px;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(239, 233, 233);
   border-radius: 14px;
 }
 
